@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/register.css" />
+    <title>회원가입</title>
+</head>
+<body>
+  <div class="login-wrapper">
+    <div id="register">
+      <form action="" class="form">
+        <a href="/" onClick="history.back();" class="close1">&times;</a>
+        <h2>회원가입</h2>
+        <div class="input-group">
+          <input type="text" name="Username" id="Username" required>
+          <label for="Username">아이디</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="Password" id="Password" required>
+          <label for="name">비밀번호</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="CheckPassword" id="CheckPassword" required>
+          <label for="CheckPassword">비밀번호확인</label>
+        </div>
+        <select name="question" id="question-select" >
+                <option title="새로운 질문 선택" value>새로운 질문 선택</option>
+                <option title="처음으로 샀던 자동차는?"value="1">처음으로 샀던 자동차는?</option>
+                <option title="고등학교 시절 살았던 동네는?"value="2">고등학교 시절 살았던 동네는?</option>
+                <option title="첫 해외여행 장소는?"value="3">첫 해외여행 장소는?</option>
+                <option title="제일 좋아하는 음식점은?"value="4">제일 좋아하는 음식점은?</option>
+                <option title="가장 좋아하는 스포츠 팀이나 선수의 이름은?"value="5">가장 좋아하는 스포츠 팀이나 선수의 이름은?</option>
+                <option title="가장 좋아하는 영화는?"value="6">가장 좋아하는 영화는?</option>
+        </select>
+
+        <div class="input-group">
+            <input type="text" name="bonincheck" id="bonincheck" required>
+            <label for="BoninCheck">본인 확인 답변 입력</label>
+        </div>
+
+
+
+
+
+        <input type="submit" value="확인" class="submit-btn">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
